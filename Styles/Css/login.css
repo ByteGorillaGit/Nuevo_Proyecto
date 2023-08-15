@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(../img/fondo.png);
+    background-image: url(../img/background.png);
   }
   
   .fade-in-container {
@@ -25,7 +25,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
   }
   
@@ -36,6 +36,7 @@ body {
   form {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   
   label {
@@ -48,8 +49,17 @@ body {
     border: 1px solid #00000085;
     border-radius: 4px;
   }
-  
-  button {
+
+  input[type="submit"]{
+    padding: 12px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button{
     padding: 12px;
     background-color: #ff0000;
     color: #ffffff;
@@ -58,8 +68,6 @@ body {
     cursor: pointer;
   }
   
-  button:hover {
-    background-color: #8d0202;
+  input:hover {
+    background-color: #867e7e;
   }
-  
-  
