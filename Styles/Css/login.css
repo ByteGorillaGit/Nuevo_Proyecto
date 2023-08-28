@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin-left: 40%;
     padding: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(../img/background.png);
+    background: -webkit-linear-gradient(to right, #5e2129, #333333);  
+    background: linear-gradient(to right, #a50117, #333333); 
   }
   
   .fade-in-container {
@@ -22,11 +22,10 @@ body {
   
   .login-container {
     background-color: #dba1a1;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    max-width: 500px;
-    width: 100%;
+    width: 150%;
   }
   
   h1 {
@@ -68,6 +67,6 @@ body {
     cursor: pointer;
   }
   
-  input:hover {
-    background-color: #867e7e;
+  input[type="submit"]:hover{
+    background-color: #5e2129;
   }
