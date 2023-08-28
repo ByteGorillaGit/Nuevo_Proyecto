@@ -9,7 +9,7 @@
 * Además de realizar cambios en el menú
 
 
-# Cambios realizados el día 28-08-2023
+### Cambios realizados el día 28-08-2023
 * Se realizo la conexión de la base de datos
 * Se realizaron cambios básicos en el 'User.html'. 👍
-* En base de datos se cambiaron todos los 'primary key' a 'int y auto increment'
+* En base de datos se cambiaron todos los 'primary key' a 'int y auto increment'.
