@@ -89,7 +89,7 @@ textarea {
     background: none;
     border: none;
     border-bottom: solid 2px #f2f3eb;
-    color: #2e2e2e;
+    color: #f2f3eb;
     font-size: 1em;
     font-weight: 400;
     letter-spacing: 1px;
@@ -179,6 +179,7 @@ textarea {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    margin-top: 10%;
 }
 
 #form_button:hover {
@@ -227,4 +228,29 @@ textarea {
     textarea {
         font-size: 0.875em;
     }
+}
+#button2 {
+    background: none;
+    border: solid 2px #f2f3eb;
+    color: #f2f3eb;
+    cursor: pointer;
+    display: list-item;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-left: 79%;
+    margin-top: -145.2px;
+    
+}
+#button2:hover {
+    background: #2e2e2e;
+    color: #f2f3eb;
 }
