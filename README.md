@@ -7,3 +7,7 @@
 * Además de cambiar la imagén de fondo del login
 * Añadiendo un link de retorno al menú
 * Además de realizar cambios en el menú
+
+
+# Cambios realizados el día 28-08-2023
+* Se realizo la conexión de la base de datos
