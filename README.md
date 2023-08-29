@@ -26,6 +26,6 @@
 * A las demas vistas se enlaza la garantía y se pone el footer el apartado de garantía 💕.
 * Se actualizo el "PQR'S"
 * Se realizo la vista de actualizar
-* Se actualizaron paginas de regitrar usuario y se hizo el cambio de nombre de la carpeta src a templates.
+* Se actualizaron paginas de registrar usuario y se hizo el cambio de nombre de la carpeta src a templates.
 
 
