@@ -7,11 +7,12 @@
 
 body {
   align-items: center;
-  background: #807182;
+  background: -webkit-linear-gradient(to right, #5e2129, #333333);  
+  background: linear-gradient(to right, #a50117, #333333); 
   color: rgba(0, 0, 0, 0.8);
   display: grid;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   height: 100vh;
   justify-items: center;
@@ -67,7 +68,8 @@ body {
 }
 
 .right-container {
-  background:#807182 ;
+  background: -webkit-linear-gradient(to right, #5e2129, #333333);  
+  background: linear-gradient(to right, #a50117, #333333); 
   display: grid;
   grid-template-areas: "." ".";
   width: 500px;
@@ -125,7 +127,8 @@ body {
 }
 .right-container footer {
   align-items: center;
-  background: #807182;
+  background: -webkit-linear-gradient(to right, #5e2129, #333333);  
+  background: linear-gradient(to right, #a50117, #333333); 
   display: grid;
   padding: 5px 40px;
 }

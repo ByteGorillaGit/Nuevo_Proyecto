@@ -6,7 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background: -webkit-linear-gradient(to right, #5e2129, #333333);  
+    background: linear-gradient(to right, #a50117, #333333); 
 }
 
 .form-container {
@@ -71,4 +72,14 @@ body {
 
 .forgot-password-form button:hover {
     background-color: #b30000;
+}
+.button{
+    background-color: #fc0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 37.5%;
 }
