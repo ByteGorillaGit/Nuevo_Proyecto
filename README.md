@@ -19,3 +19,4 @@
 
 ### Cambios realizados el día 29-08-2023
 * Se realizo coneccion desde el menu principal hacia los terminos y condiciones.
+* Se actualizo el "PQR'S"
