@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar producto</title>
+    <link rel="stylesheet" href="../Styles/Css/actualizar.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Actualizar PQR'S</h1>
+    </header>
+    <div class="contenedor">
+
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th>Campo</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ID de puerta</td>
+          <td><input type="number" name="id_puerta" id="id_puerta" class="campo-numero"></td>
+        </tr>
+        <tr>
+          <td>Modelo</td>
+          <td><input type="text" name="modelo" id="modelo" class="campo-texto"></td>
+        </tr>
+        <tr>
+          <td>Marca</td>
+          <td><input type="text" name="marca" id="marca" class="campo-texto"></td>
+        </tr>
+        <tr>
+          <td>Color</td>
+          <td><input type="text" name="color" id="color" class="campo-texto"></td>
+        </tr>
+        <tr>
+          <td>Precio</td>
+          <td><input type="number" name="precio" id="precio" class="campo-numero"></td>
+        </tr>
+        <tr>
+          <td>Disponibilidad</td>
+          <td>
+            <input type="radio" name="disponibilidad" id="disponibilidad-si" value="1" class="radio-boton">
+            <label for="disponibilidad-si">Sí</label>
+            <input type="radio" name="disponibilidad" id="disponibilidad-no" value="0" checked class="radio-boton">
+            <label for="disponibilidad-no">No</label>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">
+            <button type="submit" name="boton-actualizar" class="boton boton-rojo">Actualizar</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </div>       
+</body>
+</html>
