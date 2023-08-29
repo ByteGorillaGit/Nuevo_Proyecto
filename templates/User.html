@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/Css/RegistreUser.css">
+    <link rel="apple-touch-icon" href="../Styles/img/fabriatomaticas.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../Styles/img/fabriatomaticas.png">
+    <title>Fabriautomaticas - Registro</title>
+</head>
+
+<body>
+    <form action="#" id="container">
+        <div id="container">
+            <h1>&bull; Regístrate ahora &bull;</h1>
+            <div class="underline">
+                <img src="../Styles/img/logo.png" class="imagen">
+            </div>
+            <div class="icon_wrapper">
+            </div>
+            <form action="#" method="post" id="contact_form">
+                <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Nombre de usuario" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Apellido de usuario" name="email" id="email_input" required>
+                </div>
+                <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Telefono" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Correo Electronico" name="email" id="email_input" required>
+                </div>
+                <div class="name">
+                    <label for="password"></label>
+                    <input type="password" placeholder="Contraseña" name="password" id="password" required>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Enviar" id="form_button" />
+                    <button type="button" id="form_button2">Atrás</button>
+                </div>
+            </form>
+        </div>
+    </form>
+
+    <script>
+        document.getElementById("form_button2").addEventListener("click", function () {
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+
+</html>

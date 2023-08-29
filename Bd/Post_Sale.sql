@@ -47,3 +47,4 @@ create table Pqrs(
     idConFK int not null,
     foreign key(idConFK) references contrato(idContrato)
 );
+ 

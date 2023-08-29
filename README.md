@@ -16,7 +16,6 @@
 * Se realizo un cambio en el 'User.html'.
 * Se realizaron actualizaciones en login, form, PQRS y en sus respectivos Css cambio de color.
 
-
 ### Cambios realizados el día 29-08-2023
 * Se realizo coneccion desde el menu principal hacia los terminos y condiciones.
 
@@ -26,6 +25,7 @@
 * A las demas vistas se les enlaza la vista de Garantías quedando en perfecto funcionamiento.
 * A las demas vistas se enlaza la garantía y se pone el footer el apartado de garantía 💕.
 * Se actualizo el "PQR'S"
-### Cambios realizados el día 29-08-2023
 * Se realizo la vista de actualizar
+* Se actualizaron paginas de regitrar usuario y se hizo el cambio de nombre de la carpeta src a templates.
+
 
