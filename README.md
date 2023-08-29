@@ -14,3 +14,4 @@
 * Se realizaron cambios básicos en el 'User.html'. 👍
 * En base de datos se cambiaron todos los 'primary key' a 'int y auto increment'.
 * Se realizo un cambio en el 'User.html'.
+* Se realizaron actualizaciones en login, form, PQRS y en sus respectivos Css cambio de color etc.
