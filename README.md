@@ -24,7 +24,7 @@
 * A las demas vistas se enlaza la garantía y se pone el footer el apartado de garantía 💕.
 * Se actualizo el "PQR'S"
 * Se realizo la vista de actualizar
-* Se actualizaron paginas de regitrar usuario y se hizo el cambio de nombre de la carpeta src a templaates.
+* Se actualizaron paginas de regitrar usuario y se hizo el cambio de nombre de la carpeta src a templates.
 * Se creo la carpeta Action para las cruds en este se introduciran cada uno de las vistas de la crud, ya estan conectadas simultaneamente. 
 
 
