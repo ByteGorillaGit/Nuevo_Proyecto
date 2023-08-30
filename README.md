@@ -31,9 +31,9 @@
 * Las vistas de Cliente y Venta estan solo con frond 
 * A ambas carpetas se les hizo su crud de actualizar y eliminar en un formulario
 
-  ### Cambios realizados el dia 30-08-2023
-  * Se realiza el cambio de lenguaje de JavaScript a Python.
-  * Se crearon los los modulos y las migraciobes de base de datos.
-  * Se crearon las rutas y linkearon las paginas una a la otra.
+### Cambios realizados el dia 30-08-2023
+* Se realiza el cambio de lenguaje de JavaScript a Python.
+* Se crearon los los modulos y las migraciobes de base de datos.
+* Se crearon las rutas y linkearon las paginas una a la otra.
     
 
