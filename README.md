@@ -26,10 +26,14 @@
 * Se realizo la vista de actualizar
 * Se actualizaron paginas de regitrar usuario y se hizo el cambio de nombre de la carpeta src a templates.
 * Se creo la carpeta Action para las cruds en este se introduciran cada uno de las vistas de la crud, ya estan conectadas simultaneamente. 
-
-### Cambios realizados el día 29-08-2023 10:50 pm
 * Se integra la crud sin back ni conexion a base de datos en la carpeta PQR'S
 * Se hacen las carpetas Cliente y Venta
 * Las vistas de Cliente y Venta estan solo con frond 
 * A ambas carpetas se les hizo su crud de actualizar y eliminar en un formulario
+
+  ### Cambios realizados el dia 30-08-2023
+  * Se realiza el cambio de lenguaje de JavaScript a Python.
+  * Se crearon los los modulos y las migraciobes de base de datos.
+  * Se crearon las rutas y linkearon las paginas una a la otra.
+    
 
