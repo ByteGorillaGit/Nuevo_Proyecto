@@ -1,0 +1,10 @@
+venv/*
+migrations/*
+app/__pycache__/*
+__pycache__/*
+app/modulo_compra/__pycache__/*
+app/modulo_garantias/__pycache__/*
+app/modulo_inicio/__pycache__/*
+app/modulo_menu/__pycache__/*
+app/modulo_pqr/__pycache__/*
+app/modulo_privacidad/__pycache__/*
