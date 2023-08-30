@@ -16,8 +16,6 @@
 * Se realizo un cambio en el 'User.html'.
 * Se realizaron actualizaciones en login, form, PQRS y en sus respectivos Css cambio de color.
 
-### Cambios realizados el día 29-08-2023
-* Se realizo coneccion desde el menu principal hacia los terminos y condiciones.
 
 ### Cambios realizados el día 29-08-2023
 * Se integra el apartado de PQR'S a todas las vistas, quedando en perfecto funcionamiento.
