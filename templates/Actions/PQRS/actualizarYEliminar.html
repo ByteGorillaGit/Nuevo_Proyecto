@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actualizar producto</title>
-    <link rel="stylesheet" href="../../../Styles/Css/actualizar.css">
+    <title>Edicion de PQR'S</title>
+    <link rel="stylesheet" href="../../../Styles/Css/actualizarYEliminar.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../Styles/img/fabriatomaticas.png">
 </head>
 <body>
     <header>
-        <h1 class="titulo">Actualizar PQR'S</h1>
+        <h1 class="titulo">Edicion de PQR'S</h1>
     </header>
     <div class="contenedor">
 
@@ -17,28 +18,49 @@
         <tr>
           <th>Campo</th>
           <th>Valor</th>
+          <th>Acciones</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>ID de puerta</td>
           <td><input type="number" name="id_puerta" id="id_puerta" class="campo-numero"></td>
+          <td>
+            <button class="boton boton-consultar">Actualizar</button>
+            <button class="boton boton-eliminar">Eliminar</button>
+        </td>
         </tr>
         <tr>
           <td>Modelo</td>
           <td><input type="text" name="modelo" id="modelo" class="campo-texto"></td>
+          <td>
+            <button class="boton boton-consultar">Actualizar</button>
+            <button class="boton boton-eliminar">Eliminar</button>
+        </td>
         </tr>
         <tr>
           <td>Marca</td>
           <td><input type="text" name="marca" id="marca" class="campo-texto"></td>
+          <td>
+            <button class="boton boton-consultar">Actualizar</button>
+            <button class="boton boton-eliminar">Eliminar</button>
+        </td>
         </tr>
         <tr>
           <td>Color</td>
           <td><input type="text" name="color" id="color" class="campo-texto"></td>
+          <td>
+            <button class="boton boton-consultar">Actualizar</button>
+            <button class="boton boton-eliminar">Eliminar</button>
+        </td>
         </tr>
         <tr>
           <td>Precio</td>
           <td><input type="number" name="precio" id="precio" class="campo-numero"></td>
+          <td>
+            <button class="boton boton-consultar">Actualizar</button>
+            <button class="boton boton-eliminar">Eliminar</button>
+        </td>
         </tr>
         <tr>
           <td>Disponibilidad</td>
@@ -50,15 +72,13 @@
           </td>
         </tr>
       </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="2">
-            <button type="submit" name="boton-actualizar" class="boton boton-rojo">Actualizar</button>
-          </td>
-        </tr>
-      </tfoot>
     </table>
 
-  </div>       
+  </div> 
+  <center>
+  <a href="../../../index.html"> 
+  <button class="boton boton-consultar">Volver al inicio</button>
+</a>
+</center>  
 </body>
 </html>

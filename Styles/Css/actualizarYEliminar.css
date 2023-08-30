@@ -56,32 +56,34 @@ body{
   .tabla {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  .tabla th {
+}
+
+.tabla th {
     text-align: left;
     background-color: #ccc;
     color: #000000;
-  }
-  
-  .tabla td {
-    padding: 10px;  
-  }
-  
-  .boton {
-    width: 100px;
+}
+
+.tabla td {
+    padding: 10px;
+    position: relative;
+}
+
+.boton {
+    width: 80px;
     height: 30px;
+    margin-right: 5px;
     background-color: #a50117;
     color: #ffffff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
-  }
-  
-  .boton:hover {
+}
+
+.boton:hover {
     background-color: #571f1f;
-  }
+}
   .titulo {
     font-size: 24px;
     font-weight: 700;
@@ -90,3 +92,6 @@ body{
     color: #eeeeee;
     border-bottom: 1px solid #000000;
   }
+center{
+  animation: fade-in 2s ease-in-out;
+}
