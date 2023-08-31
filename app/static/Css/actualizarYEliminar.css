@@ -30,7 +30,8 @@ body{
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
-    animation: fade-in 2s ease-in-out;
+    animation: fade-in 1s ease-in-out;
+    align-items: center;
   }
   
   .titulo {
@@ -82,9 +83,11 @@ body{
 }
 
 .boton:hover {
-    background-color: #571f1f;
+  background-color: #571f1f;
 }
-  .titulo {
+
+
+.titulo {
     font-size: 24px;
     font-weight: 700;
     margin-top: 0;
@@ -92,6 +95,21 @@ body{
     color: #eeeeee;
     border-bottom: 1px solid #000000;
   }
-center{
-  animation: fade-in 2s ease-in-out;
-}
+
+
+  .return{
+    margin-right: 5px;
+    background-color: #a50117;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    animation: fade-in 1s ease-in-out;
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+
+  .return:hover{
+    background-color: #3b0707;
+  }

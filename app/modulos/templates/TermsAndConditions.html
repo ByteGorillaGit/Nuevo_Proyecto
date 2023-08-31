@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fabriautomaticas Terminos y Condiciones</title>
     <link rel="stylesheet" href="../../static/Css/termsAndConditions.css">
-    <link rel="apple-touch-icon" href="../../static/img/fabriatomaticas.png">
-  <link rel="shortcut icon" type="image/x-icon" href="../../static/img/fabriatomaticas.png">
+    <link rel="apple-touch-icon" href="../../static/img/logo.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../../static/img/logo.png">
 </head>
 <body>
-    <center>
     <header>
         <h1 style="color: rgb(255, 255, 255);">
             Los Terminos Y Condiciones De Fabriautomaticas
         </h1>
-    </header>
-    <center>
-        <div>
+
+        <div class="logo">
             <img src="../../static/img/fabriatomaticas.png" alt="">
         </div>
-    </center>
+
+    </header>
+
+
     <section>
         <div class="section">
             <h2 style="color: rgb(255, 255, 255);">1. Nuestros Sevicios</h2>
@@ -70,14 +71,22 @@
               </p>
         </div>   
     </section>
-    <footer>
-        <p style="color: aqua;">Derechos reservados &copy; 2023</p>
+    <footer class="terms">
+        <script type="text/javascript">
+
+            copyright=new Date();
+            
+            update=copyright.getFullYear();
+            
+            document.write("Derechos reservados &copy 2023 - " + update + " " + "Fabriautomaticas SAS");
+            
+            </script>
     </footer>
-    <div>
-        <a href="../menu/menu">
+    <br>
+    <div class="button">
+        <a href="/menu/menu">
             <input type="submit" value="Aceptar">
         </a>
         </div>
-</center>
 </body>
 </html>

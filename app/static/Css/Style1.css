@@ -270,6 +270,7 @@ a {
   width: 50%;
   color: white;
   margin-top: 5px;
+  cursor: pointer;
 }
 #content #right form input[type="submit"]:hover,
 #content #right form textarea[type="submit"]:hover {
@@ -277,6 +278,8 @@ a {
   -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: #575757;
+
 }
 #content #right form input[type="textarea"],
 #content #right form textarea[type="textarea"] {
@@ -297,3 +300,37 @@ a {
   text-align: center;
   display: table; 
 }
+
+.menu{
+  text-transform: uppercase;
+  background: grey;
+  width: 50%;
+  color: white;
+  margin-top: 20px;
+  height: 30px;
+  cursor: pointer;
+}
+ .menu:hover{
+  background: grey;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: #575757;
+ }
+
+ .insert{
+  text-transform: uppercase;
+  background: grey;
+  width: 50%;
+  color: white;
+  margin-top: 20px;
+  height: 30px;
+  cursor: pointer;
+}
+ .insert:hover{
+  background: grey;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background-color: #575757;
+ }

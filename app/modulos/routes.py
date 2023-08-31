@@ -47,9 +47,14 @@ def password():
 def menu():
     return render_template("Index.html")
 
+@module_menu.route("/contact_menu")
+def menu_contact():
+    return render_template("ContactMenu.html")
+
+
 @module_pqr.route("/register_pqr")
 def pqr():
-    return render_template("RegisterPQRS.html")
+    return render_template("RegisterPQR.html")
 
 @module_pqr.route("/consult_pqr")
 def consult():

@@ -38,3 +38,8 @@
     
 ### Cambios realizados del dia 31-08-2023
 * Se agruparon en una sola carpeta, solo init y solo routes, ademas se cambiaron nombres completamente a ingles.
+* Un error en los modulos fue solucionado, cambiado el nombre de los modulos a "MODULE", tener en cuenta eso.
+* En routes y en el init de los modulos, el pqr estaba mal escrito, se hizo el cambio bien puesto para que funcionara bien.
+* Se enlazan todas las paginas, quedando en perfecto funcionamiento.
+* Se realiza el botón de volver al menú de la vista PQRS.
+* SE NECESITA ARREGLAR BOTON DE REGISTRAR PQR "Se recomienda utilizar la ConsultWarranty"
