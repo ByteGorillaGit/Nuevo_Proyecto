@@ -36,4 +36,5 @@
 * Se crearon los los modulos y las migraciobes de base de datos.
 * Se crearon las rutas y linkearon las paginas una a la otra.
     
-
+### Cambios realizados del dia 31-08-2023
+* Se agruparon en una sola carpeta, solo init y solo routes, ademas se cambiaron nombres completamente a ingles.
