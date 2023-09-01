@@ -2,79 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edicion de PQR'S</title>
-    <link rel="stylesheet" href="../../static/Css/actualizarYEliminar.css">
+    <title>actualizar_eliminar_garantía</title>
+    <link rel="stylesheet" href="../../static/Css/actualizar_eliminar_cliente.css">
     <link rel="shortcut icon" type="image/x-icon" href="../../static/img/logo.png">
 </head>
-<body>
-    <header>
-        <h1 class="titulo">Edicion de PQR'S</h1>
-    </header> 
-    <div class="contenedor">
-
-    <table class="tabla">
+<body class="body">
+<section>
+  <h1>Consulatar Pqr</h1>
+  <div class="tbl-header">
+    <table cellpadding="0" cellspacing="0" border="0">
       <thead>
         <tr>
-          <th>Campo</th>
-          <th>Valor</th>
-          <th>Acciones</th>
+          <th>id Pqr</th>
+          <th>fecha Pqr</th>
+          <th>descripción Pqr</th>
+          <th>tipo de Pqr</th>
+          <th>id Usuario</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td>ID de puerta</td>
-          <td><input type="number" name="id_puerta" id="id_puerta" class="campo-numero"></td>
-          <td>
-            <button class="boton boton-consultar">Actualizar</button>
-            <button class="boton boton-eliminar">Eliminar</button>
-        </td>
-        </tr>
-        <tr>
-          <td>Modelo</td>
-          <td><input type="text" name="modelo" id="modelo" class="campo-texto"></td>
-          <td>
-            <button class="boton boton-consultar">Actualizar</button>
-            <button class="boton boton-eliminar">Eliminar</button>
-        </td>
-        </tr>
-        <tr>
-          <td>Marca</td>
-          <td><input type="text" name="marca" id="marca" class="campo-texto"></td>
-          <td>
-            <button class="boton boton-consultar">Actualizar</button>
-            <button class="boton boton-eliminar">Eliminar</button>
-        </td>
-        </tr>
-        <tr>
-          <td>Color</td>
-          <td><input type="text" name="color" id="color" class="campo-texto"></td>
-          <td>
-            <button class="boton boton-consultar">Actualizar</button>
-            <button class="boton boton-eliminar">Eliminar</button>
-        </td>
-        </tr>
-        <tr>
-          <td>Precio</td>
-          <td><input type="number" name="precio" id="precio" class="campo-numero"></td>
-          <td>
-            <button class="boton boton-consultar">Actualizar</button>
-            <button class="boton boton-eliminar">Eliminar</button>
-        </td>
-        </tr>
-        <tr>
-          <td>Disponibilidad</td>
-          <td>
-            <input type="radio" name="disponibilidad" id="disponibilidad-si" value="1" class="radio-boton">
-            <label for="disponibilidad-si">Sí</label>
-            <input type="radio" name="disponibilidad" id="disponibilidad-no" value="0" checked class="radio-boton">
-            <label for="disponibilidad-no">No</label>
-          </td>
-        </tr>
-      </tbody>
     </table>
-
-  </div> 
-<a href="/pqr/register_pqr"><button class="return">Volver al inicio</a></button>
+    <div class="tbl-content">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+          <tr>
+            <td>ID PQR</td>
+            <td>FECHA PQR</td>
+            <td>DESCRIPCIÓN PQR</td>   
+            <td>TIPO PQR</td>
+            <td>ID USUARIO</td>
+            <td>
+              <button class="btn third">Actualizar</button>
+                <button class="btn fifth">Eliminar</button>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+   <Foter>
+    <a href="/menu/menu">
+      <button class="btn fifth">volver al menú</button>
+     </a> 
+      <a href="/pqr/register_pqr">
+      <button class="pqr">volver a registrar PQR</button>
+     </a>
+   </Foter>
 </body>
 </html>
