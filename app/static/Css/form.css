@@ -10,6 +10,10 @@ body {
     background: linear-gradient(to right, #a50117, #333333); 
 }
 
+h2{
+    text-align: center;
+}
+
 .form-container {
     opacity: 0;
     animation: fadeIn 1s ease forwards;
@@ -82,4 +86,7 @@ body {
     cursor: pointer;
     font-size: 14px;
     margin-left: 37.5%;
+}
+.button:hover{
+    background-color: #b30000;
 }

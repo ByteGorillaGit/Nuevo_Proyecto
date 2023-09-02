@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link para acceder a demas carpetas con estilos -->
     <link rel="stylesheet" href="../../static/Css/RegistreUser.css">
     <link rel="apple-touch-icon" href="../../static/img/logo.png">
     <link rel="shortcut icon" type="image/x-icon" href="../../static/img/logo.png">
     <title>Fabriautomaticas - Registro</title>
 </head>
-
 <body>
+     <!-- Inicio del formulario para crear un usuario -->
     <form action="#" id="container">
         <div id="container">
             <h1>&bull; Regístrate ahora &bull;</h1>
@@ -42,6 +43,7 @@
                 </div>
                 <div class="submit">
                     <input type="submit" value="Enviar" id="form_button" />
+                     <!-- Boton de para volver al login -->
                     <button type="button" id="form_button2">Atrás</button>
                 </div>
             </form>
@@ -49,6 +51,7 @@
     </form>
 
     <script>
+        //Redireccion al login
         document.getElementById("form_button2").addEventListener("click", function () {
             window.location.href = "/login/principle";
         });

@@ -15,6 +15,11 @@ body {
   
 }
 
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+
 *,
 *:before,
 *:after {

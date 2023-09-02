@@ -1,5 +1,8 @@
 @charset 'UTF-8';
 /* Slider */
+/* Este slick-theme.css esta metido en una carpeta diferente, debido a que al descargarlo salía así y fue mejor que 
+* Causar un error.
+*/
 .slick-loading .slick-list
 {
     background: #fff url('../img/ajax-loader.gif') center center no-repeat;
