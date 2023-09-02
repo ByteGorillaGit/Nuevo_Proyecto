@@ -43,3 +43,8 @@
 * Se enlazan todas las paginas, quedando en perfecto funcionamiento.
 * Se realiza el botón de volver al menú de la vista PQRS.
 * SE NECESITA ARREGLAR BOTON DE REGISTRAR PQR "Se recomienda utilizar la ConsultWarranty"
+
+
+### Cambios realizados del dia 02-09-2023
+* Se reailizo comentareo al codigo
+* Algunas mejoras de sintaxis
