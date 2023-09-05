@@ -15,7 +15,8 @@ app.config.from_object(Config)
 
 db = SQLAlchemy(app)
 migrate = Migrate(app=app , db=db)
-from .models import Rol
+
+from .models import Rol, Usuario, Contrato, Pqrs, Garantias
 
 
 app.register_blueprint(module_warranty)

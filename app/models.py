@@ -23,11 +23,11 @@ class Rol(db.Model):
 class Usuario(db.Model):
     __tablename__ = 'Usuario'
     idUsu = Column(Integer, primary_key = True)
-    apellidoUsu = Column(String(45), nullable = False)
-    telefonoUsu = Column(String(45), nullable = False)
-    emailUsu= Column(String(45), nullable = False)
-    direccionUsu = Column(String(45), nullable = False)
-    contrasenaUsu = Column(String(45), nullable = False)
+    nombreUsuario = Column(String(45), nullable = False)
+    apellidoUsuario = Column(String(45), nullable = False)
+    telefonoUsuario = Column(String(45), nullable = False)
+    emailUsuario= Column(String(45), nullable = False)
+    contrasenaUsuario = Column(String(45), nullable = False)
     idRolFk = Column(Integer, ForeignKey('Rol.id'))
 
 class Garantias(db.Model):
